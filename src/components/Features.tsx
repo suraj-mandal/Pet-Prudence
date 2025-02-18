@@ -151,7 +151,7 @@ const Features = () => {
         .animation-delay-4000 {
           animation-delay: 4s;
         }
-      `}</style>
+      ` as unknown as React.ReactNode}</style>
     </section>
   );
 };
