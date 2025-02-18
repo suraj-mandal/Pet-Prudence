@@ -101,7 +101,7 @@ const Hero = () => {
         .animation-delay-3000 {
           animation-delay: 3s;
         }
-      `}</style>
+      ` as unknown as React.ReactNode}</style>
     </section>
   );
 };
