@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="w-full">
+    <div className="w-full font-['IBM Plex Sans']">
       <div className="max-w-[1920px] mx-auto px-4"> {/* Increased from 1440px to 1920px */}
         <Navbar />
       </div>
